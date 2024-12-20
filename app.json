@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "nameroots",
+    "name": "NameRoots",
     "slug": "nameroots",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -15,7 +15,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.henriqueandrew.nameroots"
     },
     "web": {
       "bundler": "metro",
@@ -36,6 +37,14 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "646b7e33-c7d7-47ec-82e4-8d31f41e4270"
+      }
     }
   }
 }
